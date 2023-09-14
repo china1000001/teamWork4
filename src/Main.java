@@ -4,4 +4,11 @@ public class Main {
         Info info1 = new Info(2,"Evan Halstead","evantead12@gmail.com","evan234"+Gender.MALE);
         System.out.println(info+"\n"+info1);
     }
+
+    public static void mission2() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Hello");
+        stringBuilder.reverse();
+        System.out.println(stringBuilder);
+    }
 }
