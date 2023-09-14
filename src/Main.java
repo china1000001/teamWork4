@@ -6,7 +6,6 @@ public class Main {
         meth("RUB",1);
         meth("UZB",1);
     }
-
     public static void meth(String valuta, int summa) {
         double a = 0.91;
         double b = 0.0073;
